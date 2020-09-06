@@ -14,7 +14,7 @@ Some useful links:
 - [Tips on commit etiquette and best practices](https://hackernoon.com/git-it-together-some-tips-on-commit-etiquette-and-best-practices-for-junior-developers-1f147b8dfd56) from @Gunterja
 - [Adding a code of conduct to your project](https://opensource.guide/code-of-conduct)
 
-## An Intoductory Exercise
+## An Introductory Exercise
 
 ### 1. Setting things up
 
@@ -31,7 +31,6 @@ Some useful links:
   Visit [git-scm.com/downloads](https://git-scm.com/downloads) and follow the instructions for your platform. You can accept all the default options provided by the install program.
 
   Once installed, open a new command prompt/terminal/shell and check `git --help` works as expected.
-
 
 ### 2. Making a fork from someone else's repo
 
@@ -56,7 +55,7 @@ _This activity works best if you are completing it with someone else in order to
 - Before you can commit and push files with git you will need to configure git with your identity. This should only be required once as the settings will be stored by git on your computer. From the command line, type:
 
   `git config --global user.email "me@myEmail.com"` (substituting your own email address)
-  
+
   `git config --global user.name "my name"` (substituting your own name)
 
 ### 5. Pushing local changes back to a remote repo
@@ -73,7 +72,7 @@ _This activity works best if you are completing it with someone else in order to
 
   `git push`
 
-  This is the act of transferring your most recent commit (shapshot of your project) to the remote repo. Assuming you haven't [set up an SSH key](https://help.github.com/en/articles/connecting-to-github-with-ssh), you will be asked to supply your GitHub credentials at this point.
+  This is the act of transferring your most recent commit (snapshot of your project) to the remote repo. Assuming you haven't [set up an SSH key](https://help.github.com/en/articles/connecting-to-github-with-ssh), you will be asked to supply your GitHub credentials at this point.
 
   If you point a browser to your repo on GitHub and refresh the page, you should see your newly created file now listed as part of the repo.
 
